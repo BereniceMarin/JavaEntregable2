@@ -42,7 +42,7 @@ public class Alumno {
 
     // Método principal para probar la clase
     public static void main(String[] args) {
-        int[] calificacionesEjemplo = {85, 92, 78, 88, 76};
+        int[] calificacionesEjemplo = {100, 92, 78, 88, 97};
         Alumno alumno = new Alumno("Berenice", calificacionesEjemplo);
         alumno.imprimirResultados();
     }
